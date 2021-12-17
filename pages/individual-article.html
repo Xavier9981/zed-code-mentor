@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--start google fonts links-->
+    <!--one-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!--two-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700..900&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
+    <!--end google fonts links-->
+
+    <!--start font awesome links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--end font awesome links-->
+
+    <!--start css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--end css-->
+
+    <!--start favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+    <!--end favicon-->
+
+    <title>Zed Code Mentor - Individual Articles</title>
+
+
+</head>
+<body>
+    <div class="nav-bar">
+        <header><div><h1>zed code mentor</h1></div></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#sub-footer">contact</a></li>
+            </ul>
+        </nav>        
+    </div>
+    <main>
+
+        <div class="template-container-articles" id="featured-articles">
+            <section  class="featured-articles">
+
+                <article class="main-article">
+                    <div class="container container--narrow flow">
+                        <h1 class="article-title">My Third Article </h1>
+                        <figure>
+                            <div class="article-image">
+                                <img src="../assets/blog-images/article-5.jpg" alt="This is a test">
+                            </div>
+                          
+                          <figcaption class="figcaption">
+                            This is a test
+                          </figcaption>
+                        </figure>
+                    </div>
+                  </article>
+            </section>  
+
+        </div>
+    </main>
+
+    <div class="footer-container">
+
+        <div class="sub-footer" id="sub-footer">
+            <section>
+                <h1 class="section-title">Connect with me</h1>
+                <ul>
+                    <li><a href="https://www.youtube.com/user/Attilan Front-end Tips" target="_blank" class="fa fa-youtube-play"></a></li>
+                    <li><a href="https://wa.me/213541145717?text=Hello%20Xavier" target="_blank" class="fa fa-whatsapp"></a></li>
+                    <li><a href="../pages/facebook-page.html" class="fa fa-facebook-square"></a></li>
+                    <li><a href="http://www.linkedin.com/in/xavier-muneku-600a44177" target="_blank" class="fa fa-linkedin-square"></a></li>
+                    <li><a href="mailto:xavier.muneku@gmail.com" class="fa fa-envelope"></a></li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <div>
+                <p>Copyright Xavier K Muneku &copy; <span id="currentYear"></span>. All rights reserved.</p>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+<script>
+    const d = new Date();
+    document.getElementById("currentYear").innerHTML = d.getFullYear();
+</script>
+</html>

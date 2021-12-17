@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--start google fonts links-->
+    <!--one-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!--two-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700..900&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> 
+    <!--end google fonts links-->
+
+    <!--start font awesome links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--end font awesome links-->
+
+    <!--start css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--end css-->
+
+    <!--start favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <!--end favicon-->
+
+    <title>Zed Code Mentor</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <header><div><h1>zed code mentor</h1></div></header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="pages/all-articles.html">blog</a></li>
+                <li><a href="#sub-footer">contact</a></li>
+            </ul>
+        </nav>        
+    </div>
+
+    <main>
+        <div class="template-container">
+            <section>
+                <div>
+                    <h1 class="section-title">Welcome to my blog!</h1>
+
+                    <p>On Here I share unbiased articles on web development for beginners in Zambia. To top it off I also write about ideas of how we can integrate and improve tech in Zambia. Therefore great stuff for those that are motivated and enthusiastic to learn one of the most important skills in today’s world.</p>
+
+                    <p>I also use this platform to document my web development adventures, including how I've solved challenges, useful resources, and more.</p>
+
+                    <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+
+                    <div class="flex-group">
+                        <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
+                        <a href="./blog.html" class="btn btn--neutral">Most recent articles</a>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets\permanent-images\profile.JPG" alt="xavier k muneku" class="hero-image">
+                </div>
+
+            </section>
+        </div>
+
+        <div class="template-container-articles" id="featured-articles">
+            <section  class="featured-articles">
+                <h1 class="section-title">Featured articles</h1>
+                <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
+                <ul role="list" class="articles__list">
+                    
+                    <li>
+                        <article class="snippet">
+                            <div>
+                                <img src="assets/blog-images/article-1.jpg" alt="This is a test" class="snippet__image">
+                            </div>
+                            
+                            <div>
+                                <h3 class="snippet__title"><a href="blog/my-first-article">My First Article</a></h3>
+                                <p class="snippet__meta">by <span>Xavier K Muneku</span> on <span>Apr 30, 2021</span></p>
+                                <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
+                                <a href="blog\2021-05-01-my-first-article.md" class="btn btn--primary">Continue Reading</a>
+                            </div>
+                        </article>
+                            
+                    </li>
+        
+                    <li>
+        
+                        <article class="snippet">
+                            <div>
+                                <img src="assets/blog-images/article-2.jpg" alt="This is a test" class="snippet__image">
+                            </div>
+
+                            <div>
+                                <h3 class="snippet__title"><a href="blog/my-second-article/">My Second Article</a></h3>
+                                <p class="snippet__meta">by <span>Xavier K Muneku</span> on <span>May 14, 2021</span></p>
+                                <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
+                                <a href="blog/my-second-article/" class="btn btn--primary">Continue Reading</a>                                
+                            </div>
+                            
+
+                        </article>
+        
+                    </li>
+                    </li>
+        
+                        <article class="snippet">
+                            <div>
+                                <img src="assets/blog-images/article-3.jpg" alt="This is a test" class="snippet__image">
+                            </div>
+                            <div>
+                            <h3 class="snippet__title"><a href="blog/my-third-article/">My Third Article</a></h3>
+                            <p class="snippet__meta">by <span>Xavier K Muneku</span> on <span>May 27, 2021</span></p>
+                            <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
+                            <a href="blog/my-third-article/" class="btn btn--primary">Continue Reading</a>                                
+                            </div>
+
+                        </article>
+        
+                    </li>
+        
+                    <li>
+        
+                        <article class="snippet">
+                            <div>
+                               <img src="assets/blog-images/article-4.jpg" alt="This is a test" class="snippet__image"> 
+                            </div>
+
+                            <div>
+                                <h3 class="snippet__title"><a href="blog/my-fifth-article/">My Fourth Article</a></h3>
+                                <p class="snippet__meta">by <span>Xavier K Muneku</span> on <span>Jun 14, 2021</span></p>
+                                <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
+                                <a href="blog/my-fifth-article/" class="btn btn--primary">Continue Reading</a>
+                            </div>
+                            
+                            
+                        </article>
+                
+                    </li>
+        
+                    <li>
+        
+                        <article class="snippet">
+                            <div>
+                                <img src="assets/blog-images/article-5.jpg" alt="This is a test" class="snippet__image">
+                            </div>
+                            
+                            <div>
+                                <h3 class="snippet__title"><a href="blog/my-fifth-article/">My Fifth Article</a></h3>
+                                <p class="snippet__meta">by <span>Xavier K Muneku</span> on <span>Jun 14, 2021</span></p>
+                                <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p> 
+                                <a href="blog/my-fifth-article/" class="btn btn--primary">Continue Reading</a>                                
+                            </div>
+
+                        </article>
+                
+                    </li>
+        
+                </ul>
+            </section>             
+        </div>
+    </main>
+
+    <div class="footer-container">
+        <div class="sub-footer" id="sub-footer">
+            <section>
+                <h1 class="section-title">Connect with me</h1>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCrNKDTsjRT4d1870BlGD4wA" target="_blank" class="fa fa-youtube-play"></a></li>
+                    <li><a href="https://wa.me/213541145717?text=Hello%20Xavier" target="_blank" class="fa fa-whatsapp"></a></li>
+                    <li><a href="pages/facebook-page.html" class="fa fa-facebook-square"></a></li>
+                    <li><a href="http://www.linkedin.com/in/xavier-muneku-600a44177" target="_blank" class="fa fa-linkedin-square"></a></li>
+                    <li><a href="mailto:xavier.muneku@gmail.com" class="fa fa-envelope"></a></li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <div>
+                <p>Copyright Xavier K Muneku &copy; <span id="currentYear"></span>. All rights reserved.</p>
+            </div>
+        </footer>        
+    </div>
+
+</body>
+<script>
+    const d = new Date();
+    document.getElementById("currentYear").innerHTML = d.getFullYear();
+</script>
+</html>
