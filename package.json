@@ -4,7 +4,8 @@
   "description": "This is my personal blog site where I share unbiased articles on web development for beginners in Zambia. The website is operating using the new system called JAMStack which is an architecture of building static websites.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
