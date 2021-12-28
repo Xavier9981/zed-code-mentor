@@ -1,0 +1,23 @@
+{
+  "name": "zed-code-mentor",
+  "version": "1.0.0",
+  "description": "This is my personal blog site where I share unbiased articles on web development for beginners in Zambia. The website is operating using the new system called JAMStack which is an architecture of building static websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavier9981/zed-code-mentor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavier9981/zed-code-mentor/issues"
+  },
+  "homepage": "https://github.com/Xavier9981/zed-code-mentor#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
