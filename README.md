@@ -6,6 +6,7 @@ Now all this is archived with a couple addition technologies like the static sit
 The starting files used by [Xavier K Muneku] in the `Zed-Code-Mentor` folder are:
 
 - `src` folder which is basically the source folder containing all the files listed below.
-- HTML files like `index.html` and others contained in the `pages` folder which are to be used as base for different page layouts. These can be turned into templates that will be used.
+- `html files` like `index.html` and others contained in the `pages` folder which are to be used as base for different page layouts. These can be turned into templates that will be used.
 - `css` folder contains three CSS files for styling the pages.
 - `assets` has all the documents, images and logos. 
+- Each `html file` has a `script tag` containing some simple `javascript` which keeps the copyright year updated.
