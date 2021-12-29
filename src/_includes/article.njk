@@ -1,0 +1,28 @@
+---
+layout: 'base.njk'
+---
+    <main>
+
+        <div class="template-container-articles" id="featured-articles">
+            <section  class="featured-articles">
+
+                <article class="main-article">
+                    <div class="container container--narrow flow">
+                        <h2 class="article-title">{{ title }}</h2>
+                        <figure>
+                            <div class="article-image">
+                                <img src="{{ image }}" alt="{{ imageAlt }}">
+                            </div>
+                          
+                          <figcaption class="figcaption">
+                            {{ imageAlt }}
+                          </figcaption>
+                        </figure>
+
+                        {{ content | safe }}
+                    </div>
+                  </article>
+            </section>  
+
+        </div>
+    </main>
