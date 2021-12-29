@@ -232,8 +232,10 @@ main{
     margin: 70px 0;
 }
 
-.snippet > div:nth-child(1){
+.snippet > div:nth-child(1),
+.snippet > div:nth-child(2){
     margin: auto;
+    width: 100%;
 }
 
 .snippet__image {
