@@ -5,7 +5,14 @@ Now all this is archived with a couple addition technologies like the static sit
 
 The starting files used by [Xavier K Muneku] in the `Zed-Code-Mentor` folder are:
 
+- `node_modules` this folder is automatically added upon the installation of eleventy.
+- `public` folder containing all of my public facing folders and files.
 - `src` folder which is basically the source folder containing all the files listed below.
+- `.eleventy.js` configuration of eleventy to figure out the location for all the folders and files it can't find for itself.
+- `.gitignore` untracked files that Git should ignore.
+- `LICENSE` handles all the copyright documentation.
+- `package-lock.json` The goal of package-lock.json file is to keep track of the exact version of every package that is installed so that our product is 100% reproducible in the same way even if packages are updated by their maintainers.
+- `package.json` this file is the heart of our Node project. It records important metadata about our project which is required before publishing to NPM, and also defines functional attributes of a project that npm uses to install dependencies, run scripts, and identify the entry point to our package.
 - `html files` like `index.html` and others contained in the `pages` folder which are to be used as base for different page layouts. These can be turned into templates that will be used.
 - `css` folder contains three CSS files for styling the pages.
 - `assets` has all the documents, images and logos. 
