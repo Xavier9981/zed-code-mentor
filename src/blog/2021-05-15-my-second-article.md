@@ -1,15 +1,15 @@
 ---
-title: My Second Article
+title: My Graduation
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
   aliquam?
 author: Esther Tabo Mooka
-date: 2021-05-15
+date: 2021-12-29T22:40:06.284Z
 tags:
   - post
   - featured
-image: /assets/blog-images/img-20211203-wa0028-2-.jpg
+image: /assets/blog-images/img-20211203-wa0028-3-.jpg
 imageAlt: "Esther Tabo Mooka on her graduation "
 ---
 
