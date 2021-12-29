@@ -9,7 +9,7 @@ date: 2021-05-15
 tags:
   - post
   - featured
-image: /assets/blog-images/img-20211203-wa0028-1-.jpg
+image: /assets/blog-images/img-20211203-wa0028-2-.jpg
 imageAlt: "Esther Tabo Mooka on her graduation "
 ---
 
