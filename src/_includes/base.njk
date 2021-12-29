@@ -27,6 +27,8 @@
     <!--start favicon-->
     <link rel="icon" type="image/x-icon" href="/assets/logo.png">
     <!--end favicon-->
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
     <title>{{ title }}</title>
 </head>
@@ -35,6 +37,18 @@
     {% include 'header.njk' %}
     {{ content | safe }}
     {% include 'footer.njk' %}
+
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+    </script>
 
 </body>
 {% block js %}
