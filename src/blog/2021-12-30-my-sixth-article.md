@@ -1,5 +1,5 @@
 ---
-title: My Graduation
+title: My Graduation-1
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
@@ -10,7 +10,9 @@ tags:
   - post
   - featured
 image: /assets/blog-images/img-20211203-wa0028-3-.jpg
-imageAlt: "Esther Tabo Mooka on her graduation"
+imageAlt: Esther Tabo Mooka on her graduation
+image-1: /assets/blog-images/img-20211203-wa0028-3-.jpg
+imageAlt-1: hdnnn
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa placerat duis ultricies lacus sed turpis tincidunt id. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Erat nam at lectus urna duis convallis convallis. Purus faucibus ornare suspendisse sed nisi. Mauris rhoncus aenean vel elit. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Tellus rutrum tellus pellentesque eu tincidunt tortor. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Eu mi bibendum neque egestas congue quisque.
