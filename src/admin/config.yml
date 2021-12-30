@@ -18,3 +18,5 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image"}
       - { label: "Image Caption", name: "imageAlt", widget: "string"}
       - { label: "Paragraph", name: "body", widget: "markdown"}
+      - { label: "Featured Image-1", name: "image-1", widget: "image"}
+      - { label: "Image Caption-1", name: "imageAlt-1", widget: "string"}
